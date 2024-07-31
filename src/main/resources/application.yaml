@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: TutorDay1
+  datasource:
+    url: jdbc:sqlserver://localhost:1433;databaseName=DBTutor;encrypt=true;trustServerCertificate=true;
+    username: sa
+    password: nguyenmanh2707
+  jpa:
+    open-in-view: true
+    show-sql: true
